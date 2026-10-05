@@ -1,0 +1,32 @@
+---
+description: Content Weaver repository rules
+alwaysApply: true
+---
+
+# Content Weaver rules
+
+## Purpose
+
+This repo is a product-to-content generator. The primary purpose is to turn product information into it marketing and educational content.
+
+## Core behaviors
+
+- keep content grounded in actual product evidence
+- emphasize user outcomes over feature lists
+- prefer structured, useful outputs over generic marketing language
+- maintain clarity and practical value in generated scripts, prompts, and tutorials
+- avoid speculative or invented claims
+
+## Implementation guidance
+
+- keep TypeScript logic simple and explicit
+- prefer modular services and clear types
+- maintain distinct analysis, generation, and formatting steps
+- keep examples realistic and aligned with the product story
+- update docs when changing behavior or output structure
+
+## Working style
+
+- prefer focused, small changes
+- keep the repo easy for AI assistants and developers to navigate
+- preserve the repo’s identity as a content generator and demo project
